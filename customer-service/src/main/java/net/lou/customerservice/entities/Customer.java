@@ -1,4 +1,4 @@
-package net.youssfi.customerservice.entities;
+package net.lou.customerservice.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

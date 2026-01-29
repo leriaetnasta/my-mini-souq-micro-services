@@ -1,4 +1,4 @@
-package net.youssfi.inventoryservice.entities;
+package net.lou.inventoryservice.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,4 +1,4 @@
-package net.youssfi.customerservice.entities;
+package net.lou.customerservice.entities;
 
 import org.springframework.data.rest.core.config.Projection;
 

@@ -1,6 +1,6 @@
-package net.youssfi.customerservice.repository;
+package net.lou.customerservice.repository;
 
-import net.youssfi.customerservice.entities.Customer;
+import net.lou.customerservice.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

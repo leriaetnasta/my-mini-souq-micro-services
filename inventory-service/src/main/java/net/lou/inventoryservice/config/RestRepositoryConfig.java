@@ -1,5 +1,5 @@
-package net.youssfi.inventoryservice.config;
-import net.youssfi.inventoryservice.entities.Product;
+package net.lou.inventoryservice.config;
+import net.lou.inventoryservice.entities.Product;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;

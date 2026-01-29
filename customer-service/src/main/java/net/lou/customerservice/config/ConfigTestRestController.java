@@ -1,4 +1,4 @@
-package net.youssfi.customerservice.config;
+package net.lou.customerservice.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

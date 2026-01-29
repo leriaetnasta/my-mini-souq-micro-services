@@ -1,6 +1,6 @@
-package net.youssfi.customerservice.config;
+package net.lou.customerservice.config;
 
-import net.youssfi.customerservice.entities.Customer;
+import net.lou.customerservice.entities.Customer;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;

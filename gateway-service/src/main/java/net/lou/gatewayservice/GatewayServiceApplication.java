@@ -8,7 +8,7 @@ import org.springframework.cloud.gateway.discovery.DiscoveryLocatorProperties;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class GateweyServiceApplication {
+public class GatewayServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GateweyServiceApplication.class, args);

@@ -1,4 +1,4 @@
-package net.youssfi.inventoryservice;
+package net.lou.inventoryservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

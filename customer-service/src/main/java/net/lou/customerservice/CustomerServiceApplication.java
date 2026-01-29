@@ -1,8 +1,8 @@
-package net.youssfi.customerservice;
+package net.lou.customerservice;
 
-import net.youssfi.customerservice.config.CustomerConfigParams;
-import net.youssfi.customerservice.entities.Customer;
-import net.youssfi.customerservice.repository.CustomerRepository;
+import net.lou.customerservice.config.CustomerConfigParams;
+import net.lou.customerservice.entities.Customer;
+import net.lou.customerservice.repository.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,13 +21,13 @@ public class CustomerServiceApplication {
 	CommandLineRunner commandLineRunner(CustomerRepository customerRepository ){
 		return args -> {
 			customerRepository.save(Customer.builder()
-							.name("Mohamed").email("med@gmail.com")
+							.name("lou").email("lou@gmail.com")
 					.build());
 			customerRepository.save(Customer.builder()
-					.name("Imane").email("imane@gmail.com")
+					.name("talha").email("talha@gmail.com")
 					.build());
 			customerRepository.save(Customer.builder()
-					.name("Yassine").email("yassine@gmail.com")
+					.name("hamza").email("hamza@gmail.com")
 					.build());
 			customerRepository.findAll().forEach(c->{
 				System.out.println("======================");
