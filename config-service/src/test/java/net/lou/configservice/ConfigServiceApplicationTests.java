@@ -1,10 +1,10 @@
-package net.lou.gateweyservice;
+package net.lou.configservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GateweyServiceApplicationTests {
+class ConfigServiceApplicationTests {
 
     @Test
     void contextLoads() {
