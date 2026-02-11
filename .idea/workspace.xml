@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f05fae-07a2-4474-b6a1-9e5ef6090d32" name="Changes" comment="adding config service" />
+    <list default="true" id="18f05fae-07a2-4474-b6a1-9e5ef6090d32" name="Changes" comment="adding config service">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +72,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "spring.configuration.checksum": "cef2a18006b5df4abc26d22bde1d2253",
+    "spring.configuration.checksum": "1abfcad29a47188ca5126ee38f1d7785",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,6 +86,13 @@
     <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="billing-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.lou.billingservice.BillingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.lou.configservice.ConfigServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +149,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
       <item itemvalue="Spring Boot.BillingServiceApplication" />
       <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
       <item itemvalue="Spring Boot.DiscoveryServiceApplication (1)" />
@@ -163,7 +176,8 @@
       <workItem from="1769863396352" duration="1406000" />
       <workItem from="1769868452173" duration="2212000" />
       <workItem from="1769878305246" duration="7863000" />
-      <workItem from="1770330863924" duration="8856000" />
+      <workItem from="1770330863924" duration="18131000" />
+      <workItem from="1770829409460" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="adding config service">
       <created>1770492418657</created>
@@ -172,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770492418657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding config service">
+      <created>1770492581553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770492581553</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
