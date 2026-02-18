@@ -35,7 +35,7 @@ public class BillingServiceApplication {
 		return args -> {
 			Collection<Customer> customers = customerRestClient.getAllCustomers().getContent();
 			Collection<Product> products = productRestClient.getAllProducts().getContent();
-
+			System.out.println("customer: " + customers);
 			customers.forEach(customer -> {
 				Bill bill = Bill.builder()
 						.billingDate(new Date())
